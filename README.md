@@ -44,23 +44,27 @@ xor(sum,a,b);
 and(carry,a,b);
 endmodule
 ```
+```
 module fulladder(a,b,c,sum,carry);
 inputs a,b,c;
 outputs sum,carry;
 assign sum=((a^b)^c);
 assign carry=((a&b)|(b&c)|(c&a));
 endmodule
+```
 /*
 Program to design a half adder and full adder circuit and verify its truth table in quartus using Verilog programming.
-Developed by: 
-RegisterNumber:  
+Developed by: Yuvarani T
+RegisterNumber:  22009033
 */
-Logic symbol & Truthtable
+Logic symbol
+ & Truthtable
 RTL realization
 
 ### Output:
 ### RTL
-![Screenshot (11)](https://user-images.githubusercontent.com/121418522/211790684-17e80b06-9373-4f20-ba5c-aaa
+![Screenshot (11)](https://user-images.githubusercontent.com/121418522/211793440-90b0d800-6112-4100-9c37-52166866db60.png)
+
 ![Screenshot (9)](https://user-images.githubusercontent.com/121418522/211790809-878e1c2d-b7ea-491a-9ef6-f3a7c4eb2cba.png)
 5d972f379.png)
 
