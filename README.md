@@ -59,6 +59,7 @@ Developed by: Yuvarani T
 
 RegisterNumber:  22009033
 */
+
  Truthtable
 
 HALF ADDER
